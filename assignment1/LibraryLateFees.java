@@ -33,8 +33,6 @@ public class LibraryLateFees{
             
         }
         System.out.println("THANK YOU!!!");
-
-
-        
+        sc.close(); 
     }
 }

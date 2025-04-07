@@ -15,6 +15,7 @@ public class Power {
             product=product*a;
         }
         System.out.println(a+"^"+b+":"+product);
+        sc.close();
     }
     
 }

@@ -13,6 +13,6 @@ public class CheckDivisibilty {
         else{
             System.out.println("the given number is not divisble by 5 or 7");
         }
-
+        sc.close();
     }
 }

@@ -46,5 +46,6 @@ public class target {
             } 
         }
         System.out.println(number);
+        sc.close();
     }
 }

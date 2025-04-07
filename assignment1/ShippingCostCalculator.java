@@ -21,6 +21,7 @@ public class ShippingCostCalculator {
             System.out.println("The cost is 20$");
         }
         System.out.println("THANK YOU!!!");
+        sc.close();
     }
     
 }

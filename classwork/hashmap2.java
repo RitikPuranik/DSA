@@ -24,5 +24,6 @@ public class hashmap2 {
         if (flag!=-1){
             System.out.println(SAME);   
         }
+        sc.close();
     }
 }

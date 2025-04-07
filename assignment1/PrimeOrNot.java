@@ -21,5 +21,6 @@ public class PrimeOrNot {
         else{
             System.out.println("the given number is a prime number");
         }
+        sc.close();
     }
 }

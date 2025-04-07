@@ -24,6 +24,7 @@ public class CheckTriangleType {
         else{
             System.out.println("The given triangle is an scalene triangle!");
         }
+        sc.close();
     }
     
 }

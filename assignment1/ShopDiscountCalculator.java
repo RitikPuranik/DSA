@@ -25,7 +25,7 @@ public class ShopDiscountCalculator {
             
         }
         System.out.println("thanks for shopping");
-
+        sc.close();
     }
     
 }

@@ -17,6 +17,7 @@ public class CheckEmployeeEligibility {
         else{
             System.out.println("You are not eligible for overtime pay!");
         }
+        sc.close();
     }
     
 }

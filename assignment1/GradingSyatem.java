@@ -39,6 +39,7 @@ public class GradingSyatem {
         } else {
             System.out.println("you have entered the wrong marks");
         }
+        sc.close();
     }
     
 }

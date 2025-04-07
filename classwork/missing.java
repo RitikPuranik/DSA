@@ -18,5 +18,7 @@ public class missing {
             
           int number=sum1-sum;
             System.out.println("missing number "+number);
+            sc.close();
         }
+        
 }

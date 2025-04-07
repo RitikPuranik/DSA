@@ -16,6 +16,7 @@ public class CheckEligibility {
         else{
             System.out.println("you are not eligible to vote!");
         }
+        sc.close();
     }
     
 }

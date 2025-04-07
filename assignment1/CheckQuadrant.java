@@ -22,6 +22,7 @@ public class CheckQuadrant {
         else {
             System.out.println("The point lies in 4th Quadrant");
         }
+        sc.close();
     }
     
 }
