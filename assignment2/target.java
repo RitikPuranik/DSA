@@ -31,7 +31,7 @@ public class target {
         int left=0;
         int sum = 0;
         int right=arr.length-1;
-        while (left<right) {
+        while (left<=right) {
             sum = arr[left]+arr[right];
 
             if (sum>k) {

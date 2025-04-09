@@ -19,11 +19,10 @@ public class target {
         int [] arr2=new int[n];
         for(int i=0;i<arr.length;i++){
             arr2[i]=arr[i];
-            if () {
+            if (arr2[i]!=arr1) {
                 
             }
+            
         }
-
-        
     }
 }
