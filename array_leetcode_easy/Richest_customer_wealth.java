@@ -25,6 +25,8 @@ public class Richest_customer_wealth {
             }
             System.out.print("]");
         }
+        int max=0;
+        int number=0;
         System.out.println("]");
         for(int i=0;i<a;i++){
             System.out.print("wealth of customer "+(i+1)+" is :");
@@ -32,8 +34,13 @@ public class Richest_customer_wealth {
             for(int j=0;j<b;j++){
                 sum=sum+arr[i][j];
             }
+            if(sum>max){
+                max=sum;
+                number=(i+1);
+            }
             System.out.println(sum);
         }
+        System.out.println("the maximum wealth is of customer "+number+" is :"+max);
         sc.close();
     }
 }

@@ -33,5 +33,6 @@ public class Candies {
             }
             count=0;
         }
+        sc.close();
     }
 }
