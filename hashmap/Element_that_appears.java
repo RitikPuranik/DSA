@@ -1,33 +1,34 @@
 package hashmap;
-
 import java.util.HashMap;
-
+import java.util.Scanner;
 public class Element_that_appears {
     public static void main(String[] args) {
-         int []arr={4,1,2,1,2};
-         int []arr2=new int[arr.length];
-        HashMap<Integer,Integer> frequencyMap= new HashMap<>();
-        for(int i=0;i<arr.length;i++){
-            if (frequencyMap.containsKey(arr[i])) {
-                int Freq=frequencyMap.get(arr[i]);
-                Freq++;
-                frequencyMap.put(arr[i], Freq);
-                arr2[i]=Freq;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter number of elements in array");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();}
+        HashMap<Integer ,Integer> frequencymap =new HashMap<>();
+        
+        for(int i=0;i<n;i++){
+            if(frequencymap.containsKey(arr[i])){
+                int Freq=frequencymap.get(arr[i]);
+                  Freq++;
+                frequencymap.put(arr[i],Freq);
             }
             else{
-                frequencyMap.put(arr[i],1);
-                arr2[i]=1;
+
+                frequencymap.put(arr[i], 1);
             }
         }
-        System.out.println(frequencyMap);
-        for (int index = 0; index < arr2.length; index++) {
-
-        if (frequencyMap.containsValue(1)) {
-            System.out.println(arr2[index]);
+        System.out.println(frequencymap);
+        for (int i = 0; i < n; i++) {
+            if (frequencymap.get(arr[i]) == 1) {
+                System.out.println(" non-repeating number is: " + arr[i]);
+               break;
+            }
         }
-        else{
-            System.out.println("No element appears once");
-        }
-    }
+        
     }
 }
