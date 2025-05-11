@@ -1,4 +1,4 @@
-package ARRAY;
+package JAVA;
 
 public class PrintPrimeNumbers {
     public static void main(String[] args) {

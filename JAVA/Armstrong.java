@@ -1,4 +1,4 @@
-package ARRAY;
+package JAVA;
 import java.util.Scanner;
 
 public class Armstrong {
@@ -18,7 +18,7 @@ public class Armstrong {
         }
         else{
             System.out.println("Not an Armstrong number");
-            
         }
+        sc.close();
     }
 }

@@ -1,4 +1,4 @@
-package ARRAY;
+package JAVA;
 import java.util.Scanner;
 
 public class EvenBtwGivenRange {
