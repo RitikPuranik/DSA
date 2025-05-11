@@ -6,8 +6,7 @@ public class PrintNumberReverse {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number");
         int n=sc.nextInt();
-        int i;
-        for(i=n;i>=1;i--){
+        for(int i=n;i>=1;i--){
             System.out.println(i);
         }
         sc.close();
