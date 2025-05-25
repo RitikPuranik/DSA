@@ -23,7 +23,5 @@ public class ExtractDisplay {
             System.out.print(arr[j]+" ");
         }
         sc.close();
-        
     }
-    
 }

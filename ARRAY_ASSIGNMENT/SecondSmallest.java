@@ -1,7 +1,6 @@
 package ARRAY_ASSIGNMENT;
 import java.util.Scanner;
-
-public class SecondLargest {
+public class SecondSmallest {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.println("enter the  size of array");
@@ -11,19 +10,19 @@ public class SecondLargest {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        int max=Integer.MIN_VALUE;
+        int min=Integer.MAX_VALUE;
         for(int i=0;i<n;i++){
-            if(arr[i]>max){
-                max=arr[i];
+            if(arr[i]<min){
+                min=arr[i];
             }
         }
-        int secondMax=Integer.MIN_VALUE;
+        int secondMin=Integer.MAX_VALUE;
         for(int i=0;i<n;i++){
-            if(arr[i]>secondMax && arr[i]<max){
-                secondMax=arr[i];
+            if(arr[i]<secondMin && arr[i]>min){
+                secondMin=arr[i];
             }
         }
-        System.out.println("second largest element is "+secondMax);
+        System.out.println("second smallest element is "+secondMin);
         sc.close();
     }
 }
