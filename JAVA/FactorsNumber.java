@@ -13,6 +13,10 @@ public class FactorsNumber {
             }
         }
         sc.close();
-
     }
+
+
+
+    //BY METHODS
+
 }

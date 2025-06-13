@@ -31,5 +31,6 @@ public class CountDigits {
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
         System.out.println(countDigits(num));
+        sc.close();
     }
 }

@@ -56,5 +56,6 @@ public class EvenBtwGivenRange {
                 System.out.println(i);
             }
         }
+        sc.close();
      }
 }
