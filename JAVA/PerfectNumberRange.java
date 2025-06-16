@@ -1,7 +1,7 @@
 package JAVA;
 import java.util.Scanner;
 
-public class PerfectNumberOrNot {
+public class PerfectNumberRange {
     static int factorSum(int n){
         int sum=0;
         for(int i=1;i<n;i++){
@@ -22,13 +22,16 @@ public class PerfectNumberOrNot {
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the number");
+        System.out.println("Enter the range: ");
+        System.out.println("enter start :");
         int n=sc.nextInt();
-        if(isPerfect(n)){
-            System.out.println(n+" is a perfect number");
-        }
-        else{
-            System.out.println(n+" is not a perfect number");
+        System.err.println("enter end");
+        int m=sc.nextInt();
+        System.out.println("Perfect numbers in the range are: ");
+        for(int i=n;i<=m;i++){
+            if(isPerfect(i)){
+                System.out.print(i+" ");
+            }
         }
         sc.close();
     }
