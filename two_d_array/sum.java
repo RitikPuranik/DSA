@@ -27,9 +27,6 @@ public class sum{
             }
             System.out.println();
         }
-
-
-
-        
+        sc.close();
     }
 }
