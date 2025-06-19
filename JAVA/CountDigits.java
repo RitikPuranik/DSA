@@ -18,13 +18,16 @@ public class CountDigits {
     // }
 
     //BY METHODS
+    // static int countDigits(int n){
+    //     int count = 0;
+    //     while (n != 0) {
+    //         n /= 10;
+    //         count++;
+    //     }
+    //     return count;
+    // }
     static int countDigits(int n){
-        int count = 0;
-        while (n != 0) {
-            n /= 10;
-            count++;
-        }
-        return count;
+        return (int)(Math.log10(n) + 1);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

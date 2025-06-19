@@ -1,7 +1,8 @@
 package JAVA;
+
 import java.util.Scanner;
 
-public class LCM {
+public class FindGCD {
     static int gcd(int a, int b) {
         if (a % b == 0) {
             return b;
@@ -18,7 +19,7 @@ public class LCM {
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
         
-        System.out.println("LCM of " + a + " and " + b + " is: " + (a*b)/gcd(a, b));
+        System.out.println("GCD is: " + gcd(a, b));
         sc.close();
     }
 }
