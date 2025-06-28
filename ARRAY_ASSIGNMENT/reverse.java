@@ -21,7 +21,7 @@ public class reverse {
 
 
 
-    static int[] reverse(int arr[]){
+    public static int[] reverse(int arr[]){
         int i=0;
         int j=arr.length-1;
         while(i<j){
