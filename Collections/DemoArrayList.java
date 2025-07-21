@@ -4,7 +4,7 @@ import java.util.RandomAccess;
 public class DemoArrayList {
     public static void main(String[] args) {
 
-        ArrayList al = new ArrayList();
+        ArrayList <Object>al = new ArrayList<>();
     
         System.out.println(al instanceof Cloneable);
         System.out.println(al instanceof Serializable);

@@ -3,7 +3,7 @@ import java.util.*;
 
 public class StackExample {
     public static void main(String[] args) {
-        Stack s = new Stack();
+        Stack <String> s = new Stack<>();
         System.out.println(s.empty());
 
         s.push("A");
