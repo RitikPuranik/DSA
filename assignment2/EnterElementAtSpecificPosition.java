@@ -21,6 +21,7 @@ public class EnterElementAtSpecificPosition {
         for(int i=0;i<newArr.length;i++){
             System.out.print(newArr[i]+" ");
         }
+        sc.close();
     }
     static int[] insertArray(int x,int y,int[]arr){
         int[]arr1=new int[arr.length +1];
@@ -29,9 +30,7 @@ public class EnterElementAtSpecificPosition {
             if(i==y){
                 arr1[j++]=x;
             }
-            
             arr1[j++]=arr[i];
-            
         }
         return arr1;
     }
